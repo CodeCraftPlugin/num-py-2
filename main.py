@@ -15,6 +15,11 @@ for i in ad:
 # We can iterate 2D arrays also.
 
 # Numpy Array Join
+arr1 = ns.array([[1, 2], [3, 8]])
+arr2 = ns.array([[4, 5], [6, 7]])
+
+arr = ns.concatenate((arr1, arr2), axis=1)
+print(arr)
 
 # Join two 2-D arrays along rows (axis=1):
 
